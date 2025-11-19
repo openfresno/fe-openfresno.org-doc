@@ -6,8 +6,6 @@ for building, documenting, and testing UI components in isolation before they ar
 > [!NOTE]
 > The Open Fresno website repository
 > is [github.com/openfresno/openfresno.org](https://github.com/openfresno/openfresno.org).
-
-> [!WARNING]
 > The code should be periodically kept up to date with the main repository by manually copy/pasting the `src/` folder.
 
 ## Prerequisites
@@ -40,13 +38,14 @@ for building, documenting, and testing UI components in isolation before they ar
 
 ### Storybook
 
-The public Storybook is deployed to GitHub Pages at https://openfresno.github.io/fe-openfresno.org-doc/. You can learn
-about the components and also run tests.
+The Storybook website serves as the public documentation, and is deployed to GitHub Pages at https://openfresno.github.io/fe-openfresno.org-doc/. It is intented to provide general documentation, preview the components, and run tests.
 
 ### Playwright
 
-Visual regression and interaction tests. These tests also contain critical tests that should be included in the main
-website repository for use in CI/CD pipelines.
+Visual regression and interaction tests.
+
+> [!WARNING]
+> Critical tests should be included in the main website repository for use in CI/CD pipelines.
 
 ### Vitest
 
